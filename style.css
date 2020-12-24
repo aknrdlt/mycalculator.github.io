@@ -1,0 +1,47 @@
+.wrapper{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back{
+  background-color: black;
+  text-align: center;
+  width: 550px;
+  height: 850px;
+  display: inline-block;
+}
+
+.grids{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grids2{
+  display: grid;
+  grid-row: 15px;
+  grid-template-columns: 275px 110px 1fr;
+}
+
+.back__input{
+  height: 180px;
+  margin: 0 auto;
+}
+
+input{
+  border: none;
+  border-style: black;
+  color: white;  
+  text-align: end;
+  background-color: black;
+  font-size: 100px;
+  font-weight: lighter;
+  width: 450px;
+  height: 140px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
